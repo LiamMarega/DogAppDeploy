@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon -L",
+    "start": "nodemon index.js",
     "test": "mocha -w ./tests/**/*.spec.js"
   },
   "author": "Henry",
@@ -17,7 +17,6 @@
     "axios": "^0.23.0",
     "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.5",
-    "nodemon": "^2.0.15",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
@@ -25,13 +24,13 @@
     "jsonwebtoken": "^8.5.1",
     "morgan": "^1.10.0",
     "node-fetch": "^3.0.0",
+    "nodemon": "^2.0.15",
     "pg": "^8.5.1",
     "sequelize": "^6.3.5"
   },
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^8.2.1",
-    "nodemon": "^2.0.15",
     "supertest": "^6.0.1",
     "supertest-session": "^4.1.0"
   }
