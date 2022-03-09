@@ -1,0 +1,37 @@
+.paginado {
+    background-color: white-space;
+    border: 10px;
+    background-color: #A49488;
+    margin: 10px;
+    padding: 0;
+    border-radius: 20px;
+     cursor: pointer;
+}
+
+.numero {
+
+    padding: 10px;
+    border: 1px;
+    display: inline-block;
+    width: auto;
+    margin: auto;
+    text-align: left;
+      transition: width 0.3s, height 0.3s, transform 0.3s;
+     
+}
+
+.numero:hover {
+    /* tranformamos el elemento al pasar el mouse por encima al doble de
+         su tamaño con scale. */
+    transform: scale(1.7);
+    color: white;
+}
+
+.numero:visited {
+   font-size: 20px;
+    color: white;
+}
+
+nav{
+    display: inline-block;
+}

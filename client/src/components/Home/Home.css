@@ -1,0 +1,96 @@
+body {
+  background-image: url("../../images/fondoDog.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+}
+
+.containerDogs {
+  margin: auto;
+  display: flex;
+  justify-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+#nav {
+  padding: 30px;
+  margin: 0px;
+  background: rgb(32, 26, 21);
+  background: radial-gradient(
+    circle,
+    rgba(32, 26, 21, 1) 0%,
+    rgba(68, 56, 47, 1) 0%,
+    rgba(32, 26, 21, 1) 100%
+  );
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: black solid 4px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.container-Filtrados {
+  display: flex;
+  margin: 10px;
+  padding: 0px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.conteiner-SearchBar {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  margin-left: 250px;
+  padding-bottom: 20px;
+  align-content: center;
+}
+
+.CreateDog {
+  display: flex;
+  align-items: center;
+  height: auto;
+  font-size: 30px;
+  transition: width 0.3s, height 0.3s, transform 0.3s;
+}
+
+.TextDog {
+  color: #fff;
+}
+
+.CreateDog:hover {
+  transform: scale(1.3);
+}
+
+.selects {
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: 10px 10px 10px black;
+  border: #514134 solid 2px;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  color: #757575;
+}
+
+button {
+  background-color: #514134;
+  box-shadow: 10px 10px 10px black;
+  border: black solid 2px;
+  margin: 5px;
+  cursor: pointer;
+    color: #cfcfcf;
+    padding: 5px;
+     margin: 10px;
+}
